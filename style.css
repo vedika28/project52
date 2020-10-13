@@ -1,0 +1,64 @@
+
+body{
+    background-color:#bce9da;
+    margin: 0px;
+    border: 2px solid  #0ab8b8;
+}
+
+a:link {
+    color: wheat;
+    text-decoration:none;
+}
+
+a:visited{
+    color: lavender;
+}
+
+.intro{
+    padding: 10px;
+    background-color: #0ab8b8;
+    font-family: cursive;
+    color: #ffffff
+}
+
+.intro p{
+    font-size: 18px;
+}
+
+.grid{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.grid h2{
+    margin-left: 40px;
+}
+
+.grid img{
+    background-color: #b6dfdc;
+}
+
+.item {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.facts{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.facts ul{
+    font-size: 20.5px;
+    font-family: 'Times New Roman';
+}
+
+.item img:hover{
+    position: relative;
+    right: 10px;
+    opacity: 0.6;
+    transform: scale(1.15);
+}
